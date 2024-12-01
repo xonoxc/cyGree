@@ -39,3 +39,14 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - For Nextjs References
 - [Django Documentation](https://docs.djangoproject.com/en/5.1/) -  For Django References
 
+## Flows using kestra
+use the following command in the root of the project to spin up castra 
+
+```bash
+
+   docker compose up -d 
+
+```
+
+for more information visit Kestra [docs](https://kestra.io/docs).
+
