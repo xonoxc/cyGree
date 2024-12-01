@@ -19,7 +19,7 @@ Ensure you have the following installed:
 
 Assuming you are already in cygree repo
 ```bash
-cd CyGree-Backend
+cd backend
 ```
 
 ### Step 2: Create a Virtual Environment
