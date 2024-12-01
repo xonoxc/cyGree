@@ -50,3 +50,7 @@ use the following command in the root of the project to spin up castra
 
 for more information visit Kestra [docs](https://kestra.io/docs).
 
+
+## Contributing
+
+For guidelines on contributing, please see the [CONTRIBUTING.md](./docs/CONTRIBUTING.md) file.
