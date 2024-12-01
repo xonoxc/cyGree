@@ -41,12 +41,11 @@ cd cyGree
 ```
 
 
-## Backend Link
+## Backend API Setup
 
-refer to README.md in backend folder
+Refer to README.md in backend folder
 
-Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
-
+Open [http://localhost:8000](http://localhost:8000)(Default) with your browser to see the result.
 
 
 ## Technologies Used
