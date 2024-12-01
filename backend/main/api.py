@@ -43,14 +43,14 @@ api = NinjaExtraAPI(title="CyGree",description="""
 
 api.register_controllers(NinjaJWTDefaultController)
 
-class IsOwner(permissions.BasePermission):
-    def has_permission(self, request, controller):
-        # Allow access only if the user id is same as obj user id
-        user_id = request.path.split('/')
-        for i in user_id:
-            if(i.isnumeric()):
-                return request.auth.id == int(i)
-        return False
+# class IsOwner(permissions.BasePermission):
+#     def has_permission(self, request, controller):
+#         # Allow access only if the user id is same as obj user id
+#         user_id = request.path.split('/')
+#         for i in user_id:
+#             if(i.isnumeric()):
+#                 return request.auth.id == int(i)
+#         return False
     # def has_object_permission(self, request, controller, obj):
     #     # Allow access only if the authenticated user is the owner of the object
     #     return request.auth.id == obj.user.id
@@ -103,7 +103,7 @@ class UserModelController(ModelControllerBase):
 api.register_controllers(UserModelController)
 
 #Hold extra information related to user to setup its profile
-@api_controller('/profile', tags=['UserOperations'],auth=JWTAuth(),permissions=[IsOwner])
+@api_controller('/profile', tags=['UserOperations'],auth=JWTAuth())
 class ProfileModelController:
 
     @http_get('/{user_id}', response=UserProfileSchemaOut, url_name='get_user')
@@ -148,7 +148,7 @@ class ProfileModelController:
 api.register_controllers(ProfileModelController)
 
 #Client based operations
-@api_controller('/client', tags=['ClientOperations'],auth=JWTAuth(),permissions=[IsOwner])
+@api_controller('/client', tags=['ClientOperations'],auth=JWTAuth())
 class ClientModelController:
 
     @http_get('/{user_id}', response=dict)
