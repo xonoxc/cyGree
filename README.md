@@ -68,7 +68,7 @@ To learn more about Next.js, take a look at the following resources:
 ### Admin Dashboard
 ![Admin Dashboard](./docs/screenshots/admin.png)
 
-### Client Dashboard (Collection Points)
+### Client Dashboard (Collection Points & Rewards)
 ![Collection Points](./docs/screenshots/client.png)
 
 ### Agent Dashboard
