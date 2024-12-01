@@ -1,0 +1,15 @@
+id: container-cleanup
+namespace: company.team
+
+tasks:
+  - id: remove-stopped-containers
+    type: io.kestra.plugin.docker.Run
+    script: |
+      docker container prune -f
+    push: false
+
+  - id: remove-unused-images
+    type: io.kestra.plugin.docker.Run
+    script: |
+      docker image prune -a -f
+    push: false
