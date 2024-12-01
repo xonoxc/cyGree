@@ -65,7 +65,7 @@ To learn more about Next.js, take a look at the following resources:
 ### Home Page
 ![Home Page](./docs/screenshots/home.png)
 
-### Dashboard
+### Admin Dashboard
 ![Admin Dashboard](./docs/screenshots/admin.png)
 
 ### Client Dashboard (Collection Points)
@@ -75,7 +75,7 @@ To learn more about Next.js, take a look at the following resources:
 ![Agent Dashboard](./docs/screenshots/agent.png)
 
 ### Chatbot
-![Agent Dashboard](./docs/screenshots/chatbot.png)
+![Chatbot](./docs/screenshots/chatbot.png)
 
 ## Contributing
 
