@@ -13,8 +13,8 @@ const defaultConfig: FetchOptions = {
         Accept: "application/json",
         Authorization: `Bearer ${store.getState().accessToken}`,
     },
-    mode: "no-cors",
-    // credentials: "include",
+    mode: "cors",
+    credentials: "include",
 }
 
 export const fetchWithConfig = async (
