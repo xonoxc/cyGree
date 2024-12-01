@@ -60,7 +60,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - For Nextjs References
 - [Django Documentation](https://docs.djangoproject.com/en/5.1/) -  For Django References
 
-## Screenshots
+# Screenshots
 
 ### Home Page
 ![Home Page](./docs/screenshots/home.png)
