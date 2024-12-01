@@ -5,13 +5,12 @@ Our project aims to contribute to environmental sustainability by reducing plast
 ## API Documentation
 - The API documentation for this project can be found [http://localhost:8000/api/docs](http://localhost:8000/api/docs) after successfully running the backend application
 
-## Flows using kestra
-use the following command in the root of the project to spin up castra 
+## Flows using Kestra
+
+Kestra flows are stored in the `flows` folder of the project. Use the following command in the root of the project to spin up Kestra:
 
 ```bash
-
-   docker compose up -d 
-
+docker compose up -d
 ```
 
 for more information visit Kestra [docs](https://kestra.io/docs).
