@@ -1,4 +1,4 @@
-# <span style="color:gray;">Cy</span><span style="color:green;">Gree</span>
+# <span style="color:gray;">Cy</span><span style="color:green;">Gree</span> : Plastic Waste Recycling Platform
 
 Our project aims to contribute to environmental sustainability by reducing plastic waste. The solution incentivizes users to collect and submit their used plastic materials, which we will sell to recycling agents. In return, users will receive monetary gains in the form of gift coupons or special offers based on defined thresholds. This approach promotes environmental awareness while encouraging user participation in reducing plastic waste. The system leverages Vultr’s cloud services for scalability and secure data handling. By connecting users with recycling agents, we aim to create a sustainable ecosystem that reduces plastic waste, rewards positive behaviour, and supports the circular economy.
 
